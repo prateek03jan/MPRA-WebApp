@@ -1,0 +1,1 @@
+This folder contains the c# part of coding. It contains the WebApi framework and the related database code to fetch the details and display it in the website. Read the instructions and the web config details thoroughly before making any changes. There is another folder that contains the documents and the deployment instructions and the billing details.
