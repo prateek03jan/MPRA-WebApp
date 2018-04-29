@@ -1,0 +1,44 @@
+.business-card {
+    border: 1px solid #cccdcb;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #44464A;
+  }
+
+  .profile-img {
+    height: 120px;
+    background: white;
+  }
+
+  .job {
+    font-size: 15px;
+  }
+
+  .mail {
+    font-size: 14px;
+   }
+
+   .flat-details {
+     font-style: italic;
+   }
+
+   .flat-details strong {
+     font-style: normal;
+       color: #Ae3128;
+   }
+
+   .media-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+   }
+
+ div span.glyphicon {
+    padding-right: 5px;
+   }
+
+   div span:first-child {
+     margin-top:5px;
+   }

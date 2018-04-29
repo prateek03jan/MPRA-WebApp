@@ -1,0 +1,26 @@
+<div class="col-md-12">
+  <div class="business-card">
+    <div class="media">
+      <div class="media-left">
+        <img class="media-object img-circle profile-img" src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png">
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading">{{personObject.person.firstName}} {{personObject.person.middleName}} {{personObject.person.lastName}}</h3>
+        <div class="job">{{personObject.designation}}</div>
+        <div class="mail">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <a href="mailto:{{personObject.person.email}}">{{personObject.person.email}}</a>
+        </div>
+        <div *ngFor="let phn of personObject.person.contactNumber">
+          <span class="glyphicon glyphicon-phone-alt"></span>
+          <strong>{{phn.phoneNumber}} ({{phn.phoneType.substring(0,1)}})</strong>
+        </div>
+        <div class="flat-details">Phase
+          <strong>{{personObject.person.phase}}</strong>, Block
+          <strong>{{personObject.person.block}}</strong>, Flat
+          <strong>{{personObject.person.flat}}</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

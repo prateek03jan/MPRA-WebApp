@@ -1,0 +1,27 @@
+.margin-top-buffer-10 {
+    margin-top: 10px;
+}
+
+.committee-type {
+    color: #AE3128;
+}
+
+.left-pane {
+    overflow-y: scroll;
+    max-height: calc(100vh - 152px);
+}
+
+.right-pane {
+    border-left: 1px solid #CCCDCB;
+}
+
+tr.important {
+    color: #AE3128;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: #DEF2F1;
+    color: #00686B;
+}

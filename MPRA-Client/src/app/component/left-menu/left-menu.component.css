@@ -1,0 +1,30 @@
+.menu-bar {
+    background-color: #DEF2F1;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+}
+
+.menu-bar div a {
+    color: #00686B;
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: unset;
+    display: block;
+}
+
+.url-active {
+    font-weight: bold;
+}
+
+.url-active::after {
+    content: '';
+    position: absolute;
+    margin-top: 30px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #DEF2F1;
+    left: 45px;
+}
